@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body {
+    background: url('https://d2jv9003bew7ag.cloudfront.net/uploads/Yves-Klein-Anthropometrie-Le-Buffle-ANT-93-detail.jpg');
+    background-attachment: fixed;
+    padding-top: 1px;
+}
+span{
+  color: #a77800;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.btn{
+  display: inline-block;
+  background: #a77800;
+  font-size: 25px;
+  padding: 10px 18px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  color: #002fa7;
+}
+.btn:hover{
+  background: #a72400;
+  color: #a77800;
+  text-decoration: line-through;
+}
+nav{
+  position: sticky;
+  position: fixed;
+  width: 100%;
+}
+nav.scrolled {
+  background: rgba(0, 47, 167, 0.5);
+}
+/* #navbar{
+} */
+#navbar ul li{
+  list-style: none;
+  float: right;
+  font-size: 40px;
+  padding: 5px;
+  margin: 1px;
+}
+#navbar li a{
+    color: #a72400;
+}
+#navbar li a:hover,
+#navbar li a.active{
+  background-color: #a72400;
+  color: #002fa7;
+  font-size: 42px;
+  text-decoration: overline;
+}
+/* .content {
+} */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#title{
+  position: center;
+  margin: 10px;
+  padding-top: 55px;
+}
+#title h1{
+  font-family: 'Nothing You Could Do', cursive;
+  text-align: center;
+  font-size: 40px;
+  background: #a72400;
+  color: #002fa7;
+  width: 100%;  
+  }
+
+#section-one{
+  heigth: 400px;
+  text-align: center;
+}
+.box-one img{
+  float: left;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  border-radius: 1px;
+}
+p{
+  text-align: center;
+  color: #0083a7;
+  font-size: 22px;
+  padding: 40px;
+}
+.box-one {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border: solid;
+}
+
+
+#title-two h1{
+  font-family: 'Nothing You Could Do', cursive;
+  text-align: center;
+  font-size: 40px;
+  background: #a72400;
+  color: #002fa7;
+  width: 100%;
+}
+#title-two{
+  position: center;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.box-two p{
+  text-align: center;
+  color: #0083a7;
+  font-size: 22px;
+  padding: 20px;
+}
+#section-two .flex-container{
+  display: flex;
+  margin: 20px;
+  position: relative;
+}
+#section-two .flex-container img{
+  width: 200px;
+  padding: 2px;
+}
+
+#section-three p{
+  margin: 10px;
+  padding: 5px;
+}
+#section-three .the-work p{
+  text-align: left;
+  font-size: 20px;
+}
+footer img{
+  max-width: 600px;
+}
+footer{
+  margin-bottom: 20px;
+}
